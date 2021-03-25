@@ -1,0 +1,1 @@
+dotnet "..\Demo.WordGenerator\Binaries\Server\Demo.WordGenerator.Server.dll"

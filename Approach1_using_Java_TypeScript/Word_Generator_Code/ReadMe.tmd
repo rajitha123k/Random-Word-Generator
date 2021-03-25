@@ -1,0 +1,16 @@
+Pre-requisites and assumptions
+  Node.js, npm should be installed
+  MySQL for the database
+  JRE, JDK, IntelliJ installed
+  
+To run the application on the localhost:
+Please import ..\Word_Geneerator_Code\Word_Server\wordsapp into IntelliJ and run it
+Open ..\Word_Geneerator_Code\Word_Server\ location in command prompt and run command ng serve
+Now our application is ready at "http://localhost:4200/"
+
+Enter thhe words before clicking the start button, which will Shuffle the words and start a 60-second cycle where each word in the wordList will be populated in CurrentWordSelected state for an equal period of time and broadcasted to Client. 
+Here After going through the list server doesnot reset the list. Words can be added to the list and the words can be generated randomly again.
+This project logs the commands to the MySQL databse.
+
+After creation of this project using Spring Boot and TypeScript, I went through some resource like https://docs.microsoft.com/en-us/aspnet/core/tutorials/signalr-blazor?view=aspnetcore-5.0&tabs=visual-studio&pivots=webassembly where I created the second project.
+This project is created using ASP.NET Core with SignalR. I was not able to implement the front end because of the time constraints.

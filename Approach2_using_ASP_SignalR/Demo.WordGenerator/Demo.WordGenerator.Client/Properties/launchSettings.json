@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "Demo.WordGenerator.Client": {
+      "commandName": "Project"
+    }
+  }
+}
